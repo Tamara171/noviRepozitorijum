@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/porudzbine.css">
+    <title>Fonline</title>
+</head>
+<body  onload="prikaziVreme()">
+   
+    
+         <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
+    
+            
+            <div class="collapse navbar-collapse" id="navBar">
+               <ul id="menu">
+                   <li id="nav-0"><a href="pocetna.html">Pocetna</a></li>
+                   <li id="nav-1"><a href="knjige.html">Knjige</a> </li>
+                   <li id="nav-2"><a href="onlineKnjige.html">Online knjige</a></li>
+               <li id="nav-3"><a href="formirajPorudzbinu.html">Formiranje porudzbine</a></li>
+               
+               </ul>
+    
+                    
+            </div>
+            
+        </nav>
+    
+    <div class="panel" >
+        <div>
+            <br>
+            <h2 id="naslovKontakt"><u>Formular za porudzbine </u></h2>
+        </div>
+         <div class="kontaktForma">
+            <form >
+                <div class="grid-container">
+                    <div><label ><h3>Prezime</h3></label> 
+                    <input id="box1" type="text"><br><br></div>
+                   <div> <label > <h3>Ime</h3></label>
+                     <input id="box2" type="box2"></div>
+                
+                   <div> <label ><h3>E-mail</h3></label>
+                     <input id="boxEmail" type="text"><br><br></div>
+                    <div> <label ><h3>Broj telefona</h3></label>
+                    <input id="box3" type="tel"><br><br></div>
+            
+            
+                    <div><label><h3>Drzava</h3></label>
+                  <input id="drzava" type="text"><br><br></div>
+                  <div><label><h3>Grad</h3></label>
+                 <input id="grad" type="text"><br><br></div>
+           
+            
+                 <div>  <label><h3>Postanski broj</h3></label>
+                 <input type="text" id="posBroj"><br><br></div>
+                 <div><label><h3>Ulica i broj</h3></label>
+                 <input type="text" id="ulica"><br><br></div>
+                 <div>  <label><h3>Izaberite knjigu</h3></label>
+                   <select >
+                       <option value="prva">Teorija verovatnoce - zbirka</option>
+                       <option value="prva">Teorija verovatnoce - knjiga</option>
+                       <option value="prva">Operaciona istrazivanja 1-zbirka</option>
+                       <option value="prva">Operaciona istrazivanja 1- knjiga</option>
+                       <option value="prva">Operaciona istrazivanja 2- knjiga</option>
+                       <option value="prva">Operaciona istrazivanja 2- zbirka</option>
+                       <option value="prva">RMT</option>
+                       <option value="prva">Proizvodni sistemi- knjiga</option>
+
+                       <option value="prva">Proizvodni sistemi- zbirka</option>
+                       <option value="prva">Ekonomija</option>
+                       <option value="prva">Elektronsko poslovanje</option>
+                       <option value="prva">Matematika 2 - zbirka</option>
+                       <option value="prva">Matematika 1 - zbirka</option>
+
+
+
+
+
+                   </select>
+                
+                
+                </div>
+                
+
+                 <div>  <label ><h3>Napomena</h3></label>
+                
+                 <textarea id="poruka" cols="2" rows="2"></textarea></div>
+
+                </div>
+
+            </form>
+    
+           <br>
+           <div class="dugmence">
+            <button id="dugme" onclick="kontakt()">
+             Naruci
+            </button>
+        </div>
+         </div>
+        <div class="dno">
+           <br>
+         <h3 class="naslovKontakt">Fonline </h3>
+         <h4 class="naslovKontakt"> Jove Ilica 154 </h4>
+         <h4 class="naslovKontakt"> Beograd </h4>            
+         <h4 class="naslovKontakt"> 011 3950800 </h4>
+         <h4 class="naslovKontakt">dekanat@fon.bg.ac.rs </h4>
+        </div>
+    </div>
+        
+     
+    <a href="#" ><img id="strelica" src="slike/strelica_50x50.png" alt=""> </a>
+
+            <div class="footer1">
+                
+                <p id="datum"></p>
+               
+            </div>
+    
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+           
+            <script src="JavaScript/file.js"></script>
+    
+</body>
+</html>

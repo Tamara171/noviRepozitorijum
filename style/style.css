@@ -1,0 +1,144 @@
+body{
+    background-image:url(../slike/pozadinaPocetne.png);
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 0px;
+    background-size: cover;
+
+}
+.zaglavlje{
+   /* background-image: url(../slike/zaglavljePOzdina.jpg);*/
+    width: 1600px;
+    background-size: cover;
+}
+
+
+#logo{
+    height: 3cm;
+    width: 5cm;
+    margin-left: 0.5cm;
+  
+   
+    opacity: 0.9;
+}
+#navBar{
+    font-size: 25px;
+
+
+}
+#navBar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+    width: 100%;
+    margin-left: 10cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#navBar li{
+    display: inline;
+}
+#navBar a:link,#navBar a:visited{
+    padding: 5px 15px 5px 15px;
+    color: #ffffff;
+    background-color: #207A96;
+    text-decoration: none;
+   border: 1px solid #2AAFDB;
+
+}
+#navBar a:hover{
+    background-color: #2AAFDB;
+    color:#FFFFFF;
+}
+
+#datum{
+    text-align: center;
+    font-size: 50px;
+}
+#strelica{
+    size: 5px;
+    padding-left: 900px;
+}
+/*
+.footer1{
+    /*background-image: url(../slike/zaglavljePOzdina.jpg);
+    height: 100%;
+    background-size: cover;
+    color: bisque;
+
+}*/
+
+#slika1{
+    height: 260px;
+     width:45%;
+     opacity: 0.7;
+       
+     padding-top: 25px;
+    position: relative;
+    left:25px ;
+
+}
+#slika2{
+    height: 150px;
+    width: 150px;
+    
+}
+.panel{
+   /* background-image: url(../slike/1.jpg);*/
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+#novaZgrada{
+    padding-left: 21px;
+}
+#tekst2{
+    padding: 10px 20px;
+    color: bisque;
+}
+
+#tekst1{
+    padding: 10px 20px;
+    color: bisque;
+}
+h2{
+    color: midnightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+.naslovKontakt{
+   text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.kontaktForma{
+    background-image: url("../slike/pozadina.jpg");
+    height: 360px;
+    width: 460px;
+    opacity: 0.9;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+   
+}
+#slika3{
+    
+    width: 200px;
+    height: 150px;
+}
+.footer1{
+    display: grid;
+    padding: 25px;
+    grid-column-gap: 500px;
+  grid-template-columns: 150px 150px;
+ 
+ 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: bisque;
+}
+
