@@ -1,3 +1,10 @@
+
+#wrap{
+    position: static;
+    
+}
+
+
 body{
     background-image:url(../slike/pozadinaPocetne.png);
     background-repeat: no-repeat;
@@ -7,7 +14,7 @@ body{
 
 }
 .zaglavlje{
-   /* background-image: url(../slike/zaglavljePOzdina.jpg);*/
+  /*  background-image: url(../slike/zaglavljePOzdina.jpg);*/
     width: 1600px;
     background-size: cover;
 }
@@ -105,9 +112,12 @@ body{
     color: bisque;
 }
 h2{
-    color: midnightblue;
+    color: bisque;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 10px;
+    font-variant: small-caps;
+    text-align: center;
+    text-decoration-line: underline;
+    
 }
 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;

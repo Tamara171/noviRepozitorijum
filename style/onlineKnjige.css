@@ -1,14 +1,17 @@
-
+#wrap{
+position: static;
+}
 
 
 body{
+    
     background-image:url(../slike/pozadinaPocetne.png);
     margin: 10px;
     padding: 0px;
     background-size: cover;
-   
+}
 
-}/*
+/*
 .zaglavlje{
     background-image: url(../slike/zaglavljePOzdina.jpg);
     width: 1600px;
@@ -71,44 +74,52 @@ body{
 }*/
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: whitesmoke;
-    align-self: center;
-    padding: 15px;
-    padding-left: 250px;
-    padding-right: 250px;
-   
-    background-color: royalblue;
-    background-position-x: center;
-    width: 70%;
+    font-variant: small-caps;
+    color: wheat;
+    text-align: center;
+    text-decoration: transparent;
+}
+
+h1{
+    color: wheat;
+}
+
+
+
+.slike{
+    
+    height: 200px;
+    width: 200px;
+}
+
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: wheat;
     text-align: center;
 }
 
 
 
-#slike{
-    height: 300px;
-    width: 300px;
-}
-
-
 .grid-container {
+    
     display: grid;
     justify-content: space-around;
     align-content: center;
     grid-row-gap: 30px;
-    grid-template-columns: 10% 10% 10% 10%;
-    grid-column-gap: 30px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-column-gap: 10px;
     
-    padding-top: 100px;
-    padding-left: 45px;
+    padding-top: 80px;
+    padding-left: 35px;
   }
 .grid-item{
-    border: 1px solid rgba(0, 0, 0, 0.8);
-   
+    border: 2px groove wheat;
+    border-width: 2px;
+    border-radius: 10px;
     align-content: center;
    
-    padding: 20px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 15px;
     text-align: center;
  }
  .grid-container img{

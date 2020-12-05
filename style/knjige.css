@@ -1,4 +1,10 @@
+#wrap{
+position: static; 
+
+}
+
 body{
+    
     background-image:url(../slike/pozadinaPocetne.png);
     margin: 10px;
     padding: 0px;
@@ -78,14 +84,15 @@ border-radius: 10px;
   
 .grid-item{
    /* grid-template-columns: 30% 30% 30%;*/
-   border-radius: 30px;
+   border: 2px double wheat;
+   border-radius: 20px;
    align-content: center;
-     border: 1px solid rgba(218, 164, 164, 0.8);
-    padding: 20px;
+    
+   padding: 20px;
     font-size: 20px;
     text-align: center;
-  }
-  .grid-container img{
+}
+.grid-container img{
     align-content: center;
   }
 .description{

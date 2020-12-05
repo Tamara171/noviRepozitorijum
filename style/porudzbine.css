@@ -1,3 +1,9 @@
+#wrap{
+    position: static;
+
+}
+
+
 body{
     background-image:url(../slike/pozadinaPocetne.png);
     margin: 10px;
@@ -67,18 +73,22 @@ input{
 }
 
 .grid-container {
+    
     display: grid;
     justify-content: space-evenly;
-    grid-template-columns: 50px 50px; 
+    grid-template-columns: 150px 150px; 
     grid-gap: 10px;
     border-radius: 10px;
     align-content: center;
     padding: 10px;
   }
+
 #naslovKontakt{
+    color:#FFFFFF;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: steelblue;
+    font-variant: small-caps;
+    margin-top: 4px;
 
 }
 
@@ -95,18 +105,56 @@ input{
     border-radius: 10%;
     border-style: double;
     padding-left: 10px;
+    border-color:steelblue;
+    border-width: 5px;
 }
 #box2{
     border-radius: 10%;
     border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
 }
 #box3{
     border-radius: 10%;
     border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
 }
 #boxEmail{
     border-radius: 10%;
     border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
+}
+
+#drzava{
+    border-radius: 10%;
+    border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
+}
+#grad{
+    border-radius: 10%;
+    border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
+}
+#posBroj{
+    border-radius: 10%;
+    border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
+}
+#ulica{
+    border-radius: 10%;
+    border-style: double;
+    border-color:steelblue;
+    border-width: 5px;
+}
+
+select{
+    border-color: steelblue;
+    border-width: 2px;
 }
 
 
@@ -114,15 +162,19 @@ input{
     border-style: solid;
     width: 8cm;
     height: 4cm;
+    border-color:steelblue;
+    border-width: 3px;
 }
 #dugme{
     margin-left: 4cm;
     border-radius: 10%;
     height: 1cm;
     width: 4cm;
+    border-color:steelblue;
+    border-width: 3px;
 }
 .dugmence{
-    padding-left: 330px;
+    padding-left: 300px;
 }
 .dno{
     text-align: center;
