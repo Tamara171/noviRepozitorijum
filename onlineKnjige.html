@@ -5,12 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online knjige</title>
     <link rel="stylesheet" href="style/onlineKnjige.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 <body onload="prikaziVreme()">
+    <script src="JavaScript/file.js"></script>
+
+   <div class="zaglavlje">
+        <div class="content">
+            <div class="row">
+                <div class="col-6">
+                    <img src="slike/f_nline__6_-removebg-preview.png" id="logo">
+                   
+                </div>
+               
+            </div>
+        </div>
+</div>
     
     <nav class="navbar navbar-expand-lg navbar-light bg-light menu">
 
+ 
        
         <div class="collapse navbar-collapse" id="navBar">
            <ul id="menu">
@@ -30,50 +45,136 @@
     
     
     <div class="grid-item">
-        <img src="slike/udzbenik-epos-online.jpg" class='slike'> <br>
-        <a href="https://www.elab.fon.bg.ac.rs/wp-content/uploads/2015/07/Elektronsko-poslovanje.pdf">Preuzmite udžbenik <i>Elektronsko poslovanje</i></a>
+        <img  src="slike/udzbenik-epos-online.jpg" class='slike' onclick="uvecajSliku()"  id="prva"> <br>
+        <a href="https://www.elab.fon.bg.ac.rs/wp-content/uploads/2015/07/Elektronsko-poslovanje.pdf">Preuzmite udžbenik  <br><i>  <b> Elektronsko poslovanje </b></i></a>
+        <br>
+        <button onclick="vratiSliku()">Nazad</button> 
         
     </div>
 
 
 
     <div class="grid-item">
-        <img src="slike/rmt_150x194.png" class='slike'> <br>
-        <a href="https://drakic.files.wordpress.com/2011/09/umrezavanje-racunara-od-vrha-ka-dnu-vi-izdanje-do-432-strane.pdf">Preuzmite udžbenik <i>Umrežavanje računara od vrha ka dnu</i> </a>
-        
+        <img src="slike/rmt_150x194.png" class='slike' onclick="uvecajSliku2()"  id="druga"> <br>
+        <a href="https://drakic.files.wordpress.com/2011/09/umrezavanje-racunara-od-vrha-ka-dnu-vi-izdanje-do-432-strane.pdf">Preuzmite udžbenik  <br><i> <b>Umrežavanje računara od vrha ka dnu</b></i> </a>
+        <br>
+        <button onclick="vratiSliku2()"> Nazad </button> 
     </div>
 
     <div class="grid-item"> 
 
-        <img src="slike/RACUNOVODSTVO-NEVENKA-ZARKIC-JOKSIMOVIC_slika_O_117395217_148x194.png"  class='slike'> <br>
-        <a href="knjige/Rac unovodstvo-udz benik .pdf" > Preuzmite udžbenik <i>Računovodstvo</i> </a>
-        
+        <img src="slike/RACUNOVODSTVO-NEVENKA-ZARKIC-JOKSIMOVIC_slika_O_117395217_148x194.png" onclick="uvecajSliku3()"  class='slike' id="treca"> <br>
+        <a href="knjige/Rac unovodstvo-udz benik .pdf" > Preuzmite udžbenik <br> <i> <b>Računovodstvo </b></i> </a>
+        <br>
+        <button onclick="vratiSliku3()">Nazad</button> 
     </div>
    
     <div class="grid-item">
 
 
-     <img src="slike/big-62580342_5b273851c03b13-27753191DSC00222_165x194.png"  class='slike'> <br>
-     <a href="knjige/Zbirka zadataka iz racunovodstva.pdf"> Preuzmite <i>Zbirku zadataka iz računovodstva</i></a>
-     
+     <img src="slike/big-62580342_5b273851c03b13-27753191DSC00222_165x194.png"  class='slike' onclick="uvecajSliku4()"  id="cetvrta"> <br>
+     <a href="knjige/Zbirka zadataka iz racunovodstva.pdf"> Preuzmite  <br> <i> <b> Zbirku zadataka iz računovodstva</b></i></a>
+     <br>
+     <button onclick="vratiSliku4()">Nazad</button> 
     </div>
 
     <div class="grid-item">
 
         <h1>Linkovi za preuzimanje nekih udžbenika: </h1>
         <br> <br>
-        <a href="https://elab.fon.bg.ac.rs/wp-content/uploads/2018/10/knjiga.pdf"> Preuzmite udžbenik Simulacije i simulacioni jezici</a>
+        <a href="https://elab.fon.bg.ac.rs/wp-content/uploads/2018/10/knjiga.pdf"> Preuzmite udžbenik  <b>Simulacije i simulacioni jezici </b> </a>
 
     </div>
-    <a href="#" ><img id="strelica" src="slike/strelica_50x50.png" alt=""> </a>
-
-    <div class="footer1">
-            
-        <p id="datum"></p>
-        
-    </div>
-    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    
+   
 </div>
+<div class="footer1">
+    <a href="#" ><img id="strelica" src="slike/strelica_50x50.png" alt=""> </a>
+    <p id="datum"></p>
+    
+
+    
+</div>
+
+
+<script> 
+    img= document.getElementById("prva");
+     
+    function uvecajSliku() { 
+        img.style.width = "100%"; 
+        img.style.height = "100%"; 
+        
+    } 
+ 
+    function vratiSliku() { 
+        img.style.width = "60%"; 
+        img.style.height = "auto"; 
+        img.style.transition = "width 0.5s ease"; 
+        
+    } 
+     </script>
+ <script>
+    img2= document.getElementById("druga");
+     
+    function uvecajSliku2() { 
+        img2.style.width = "100%"; 
+        img2.style.height = "100%"; 
+        
+        
+        
+    } 
+ 
+    function vratiSliku2() { 
+        img2.style.width = "60%"; 
+        img2.style.height = "auto"; 
+        img2.style.transition = "width 0.5s ease"; 
+        
+    } 
+
+</script>
+
+<script>
+
+    img3= document.getElementById("treca");
+     
+     function uvecajSliku3() { 
+         img3.style.width = "100%"; 
+         img3.style.height = "100%"; 
+         img3.style.transition = "width 0.5s ease"; 
+         
+     } 
+  
+     function vratiSliku3() { 
+                img3.style.width = "60%"; 
+                 img3.style.height = "auto"; 
+                 img3.style.transition = "width 0.5s ease"; 
+         
+     } 
+    </script>
+    <script>
+     img4= document.getElementById("cetvrta");
+     
+     function uvecajSliku4() { 
+         img4.style.width = "100%"; 
+         img4.style.height = "100%"; 
+         img4.style.transition = "width 0.5s ease"; 
+         
+     } 
+  
+     function vratiSliku4() { 
+         img4.style.width = "60%"; 
+                 img4.style.height = "auto"; 
+                 img4.style.transition = "width 0.5s ease"; 
+         
+     } 
+    </script>
+
+
+
+
+
+ 
+
     
 
 
